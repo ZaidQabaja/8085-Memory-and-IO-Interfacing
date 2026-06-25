@@ -23,14 +23,14 @@ The system is based on the 8085 microprocessor and includes:
 
 # Project Diagrams
 
-# System Block Diagram (block_diagram.png)
+# System Block Diagram
 
 The following diagram shows the overall system architecture, including the 8085 microprocessor, address bus, data bus, memory chips, I/O decoder, input port, and seven-segment display.
-
-# Schematic Diagram (schematic_diagram.png)
+[System Block Diagram](images/block_diagram.png)
+# Schematic Diagram
 
 The following schematic shows the circuit implementation of the 8085 memory and I/O interfacing system.
-
+[Schematic Diagram](images/schematic_diagram.png)
 # Memory Map
 
 The project uses two 8K EPROM chips and two 4K RAM chips.
@@ -43,8 +43,7 @@ RAM 2	4K	F000H - FFFFH
 
 The full memory map document is available here:
 
-# Memory Map Document
-
+[Memory Map Document](docs/memory_map.docx)
 # Project Structure
 ```text
 8085-memory-io-interfacing/
