@@ -33,25 +33,41 @@ The following diagram shows the overall system architecture, including the 8085 
 The following schematic shows the circuit implementation of the 8085 memory and I/O interfacing system.
 
 ![Schematic Diagram](images/schematic_diagram.png)
-# Memory Map
+## Memory Map
 
-The project uses two 8K EPROM chips and two 4K RAM chips.
+The system uses two 8K EPROM chips and two 4K RAM chips.
 
-Device	Size	Address Range
-EPROM 1	8K	8000H - 9FFFH
-EPROM 2	8K	A000H - BFFFH
-RAM 1	4K	D000H - DFFFH
-RAM 2	4K	F000H - FFFFH
+| Device | Size | Address Range |
+|---|---:|---|
+| EPROM 1 | 8K | 8000H - 9FFFH |
+| EPROM 2 | 8K | A000H - BFFFH |
+| RAM 1 | 4K | D000H - DFFFH |
+| RAM 2 | 4K | F000H - FFFFH |
 
-The full memory map document is available here:
+## Memory Map Document Preview
+
+The following images show the original memory map pages used in the project.
+
+### Memory Map Page 1
+
+![Memory Map Page 1](images/memory_map1.png)
+
+### Memory Map Page 2
+
+![Memory Map Page 2](images/memory_map2.png)
+
+
+The original document is also available here:
 
 [Memory Map Document](docs/memory_map.docx)
 # Project Structure
 ```text
-8085-Memory-and-I/O-Interfacing/
+8085-Memory-and-IO-Interfacing/
 ├── images/
 │   ├── block_diagram.png
-│   └── schematic_diagram.png
+│   ├── schematic_diagram.png
+│   ├── memory_map1.png
+│   └── memory_map2.png
 ├── docs/
 │   └── memory_map.docx
 └── README.md
