@@ -23,11 +23,11 @@ The system is based on the 8085 microprocessor and includes:
 
 # Project Diagrams
 
-# System Block Diagram
+# System Block Diagram (block_diagram.png)
 
 The following diagram shows the overall system architecture, including the 8085 microprocessor, address bus, data bus, memory chips, I/O decoder, input port, and seven-segment display.
 
-# Schematic Diagram
+# Schematic Diagram (schematic_diagram.png)
 
 The following schematic shows the circuit implementation of the 8085 memory and I/O interfacing system.
 
