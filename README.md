@@ -48,7 +48,7 @@ The full memory map document is available here:
 [Memory Map Document](docs/memory_map.docx)
 # Project Structure
 ```text
-8085-memory-io-interfacing/
+8085-Memory-and-I/O-Interfacing/
 ├── images/
 │   ├── block_diagram.png
 │   └── schematic_diagram.png
